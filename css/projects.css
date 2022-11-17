@@ -51,7 +51,26 @@
   
   /* Style the back side */
 .flip-card-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #609758;
     color: white;
     transform: rotateY(180deg);
 }
+
+.flip-card-back h1{
+  font-weight: bold;
+}
+
+.flip-card-back p{
+  text-align: center;
+  font-size: 25px;
+}
+
+.flip-card-back a{
+  text-decoration: underline;
+  color: white;
+
+}
+/*The grid layout must change in each of your three screen sizes using min-width media queries.*/

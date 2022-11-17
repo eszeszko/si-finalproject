@@ -7,16 +7,17 @@
     <link rel="stylesheet" type="text/css" href="css/starter.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/projects.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>    
+    <!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>     -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eva Szeszko's Portfolio</title>
+    <title>Portfolio | Eva Szeszko</title>
   </head>
   <body>
-    <a class = "skip" href="#skip">Skip to Main Content</a>
+    
     <header>
-        <div id="name">
+      <a class ="skip" href="#skip">Skip to Main Content</a>
+        <div class="name">
           <ul>
-            <li><a href="about.html">Eva Szeszko</a></li>
+            <li><a href="index.html">Eva Szeszko</a></li>
           </ul>
         </div>
         <nav>
@@ -36,9 +37,14 @@
         <div class="flip-card-front">
           <img src="img/simulator.png" alt="pipeline">
           <h1>LC2K Pipeline Simulator</h1>
+          
         </div>
         <div class="flip-card-back">
           <h1>LC2K Pipeline Simulator</h1>
+          <p>Constructed a program to read in LC2K instructions and convert them to machine code. 
+            Then, implemented a memory diagram program to showcase the effects of machine code instructions in real time. 
+            Finally, I simulated a 5-stage pipeline to read in dependent instructions and perform their operations. 
+          </p>
         </div>
       </div>
     </div>
@@ -52,6 +58,9 @@
         </div>
         <div class="flip-card-back">
           <h1>Rock, Paper, Scissors Classifier</h1>
+          <p>Given database of images of corresponding images, trained and tested a neural network to recognize image 
+            as one of the three categories. Classifier worked with 82% accuracy.
+          </p>
         </div>
       </div>
     </div>
@@ -60,11 +69,14 @@
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src="img/deep_nets_right.jpg" alt="handwriting recognizer">
+          <img src="img/deep_nets_right.jpg" alt="correctly recognized handwriting">
           <h1>Handwriting Recognizer</h1>
         </div>
         <div class="flip-card-back">
           <h1>Handwriting Recognizer</h1>
+          <p>Trained deep nets and neural networks using Julia language to distinguish own handwriting. 
+            Also analyzed accuracy of testing and training data by updating the number of iterations, batch size, 
+            and learning rate that the neural network utilized.</p>
         </div>
       </div>
     </div>
@@ -78,6 +90,8 @@
         </div>
         <div class="flip-card-back">
           <h1>Euchre</h1>
+          <p>Simulated a 4-person game of Euchre stressing the use of pointers, classes, structs, enums, and other intertwining data structures.
+             Combined polymorphic players as well as human strategy to mimic a real card-game using object-oriented programming.</p>
         </div>
       </div>
     </div>
@@ -86,29 +100,19 @@
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src="img/chess.png" alt="chess image">
+          <img src="img/chess.png" alt="AI playing chess">
           <h1>Chess AI</h1>
         </div>
         <div class="flip-card-back">
           <h1>Chess AI</h1>
-        </div>
-      </div>
-    </div>
-    
-    <!--card 6: Dominos-->
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <img src="img/dominos.png" alt="dominos slide">
-          <h1>Dominos Profit Optimization</h1>
-        </div>
-        <div class="flip-card-back">
-          <h1>Dominos Profit Optimization</h1>
+          <p>Trained an AI machine to recogize Chess game states and valid actions given a current state and game-winning policy. 
+            Was able to simulate a full chess match between two opposing AI machines.
+          </p>
         </div>
       </div>
     </div>
 
-    <!--card 7: Santa-->
+    <!--card 6: Santa-->
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
@@ -117,6 +121,22 @@
         </div>
         <div class="flip-card-back">
           <h1>Santa's Presents Game</h1>
+          <p>Designed fully-playable game where Santa drops presents into moving chimneys using a mix of PyGame and Python. 
+            Game was then replicated by my Juni students. Read more about my <a href="work.html">Juni Learning experience</a></p>
+        </div>
+      </div>
+    </div>
+    
+    <!--card 7: Dominos-->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="img/dominos.png" alt="dominos slide">
+          <h1>Dominos Profit Optimization</h1>
+        </div>
+        <div class="flip-card-back">
+          <h1>Dominos Profit Optimization</h1>
+          <p>Collaborated with a team of 3 students to optimize daily profit for a Domino’s store by 20% and improved workplace operations to 75%.</p>
         </div>
       </div>
     </div>
@@ -130,6 +150,7 @@
         </div>
         <div class="flip-card-back">
           <h1>Stock Market Simulator</h1>
+          <p>Simulated a stock market exchange using priority queues and linked lists.</p>
         </div>
       </div>
     </div>
@@ -143,6 +164,7 @@
         </div>
         <div class="flip-card-back">
           <h1>SQL Imitator</h1>
+          <p>SQL simulator equipped to create, delete, insert, and join queries using C++ and hash maps for efficient operations.</p>
         </div>
       </div>
     </div>

@@ -18,3 +18,5 @@ h1, h2 {
     justify-content: space-evenly;
     padding: 50px;
 }
+
+/*The flex layout must change in each of your three screen sizes using min-width media queries*/

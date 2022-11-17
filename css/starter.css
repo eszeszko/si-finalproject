@@ -50,15 +50,9 @@ a.skip:focus{
 
 
 .nav_item a{
-    padding: 10px;
+    padding: 20px;
 }
 
-/* .nav_item a:hover, a:focus{
-    color: #50C7C7;
-    text-decoration: underline;
-    -webkit-text-decoration-style: dotted;
-            text-decoration-style: dotted;
-} */
 
 footer{
     background-color: black;

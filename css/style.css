@@ -1,6 +1,5 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: url('../images/concrete_seamless.png'), #f1f1f1;
 }
 
 header {
@@ -32,8 +31,8 @@ header a {
 }
 
 .nav_item a:hover {
-    /* color: black; */
-    font-weight: bold;
+    background-color: lightgray;
+    /* font-weight: bold; */
     text-decoration: none;
     border: none;
 }
@@ -42,12 +41,12 @@ ul.nav_links {
     justify-items: flex-start;
 }
 
-#name a{
+.name a{
     font-size: 30px;
     padding: 10px;
     border: none;
 }
 
 #current {
-    border: solid 1px gray;
+    font-weight: bold;
 }
