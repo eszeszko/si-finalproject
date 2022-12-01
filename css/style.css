@@ -133,7 +133,7 @@ ul.nav_links {
 
 ul#icons {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 
 }
@@ -189,6 +189,11 @@ ul#icons {
         color: white;
         text-decoration: underline;
     }
+
+    ul#icons {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (min-width:900px)
@@ -240,8 +245,9 @@ ul#icons {
     }
 
     ul#icons {
+        flex-direction: column;
         justify-content: flex-start;
-    
+        flex-wrap: nowrap;
     }
 
 }
