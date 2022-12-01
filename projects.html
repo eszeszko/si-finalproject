@@ -21,18 +21,24 @@
           </ul>
         </div>
         <nav>
-        <ul class="nav_links">
-            <li class="nav_item"><a href="about.html">About</a></li>
+        <ul class="nav_links" id="nav_menu">
+          <div id="close_nav">&times;</div>
+            <li class="nav_item"><a href="index.html">About</a></li>
             <li class="nav_item"><a href="work.html">Experience</a></li>
             <li class="nav_item"  id="current"><a href="projects.html">Projects</a></li>
             <li class="nav_item"><a href="skills.html">Skills</a></li>
+            <!-- <li class="nav_item"><a href="contact.html">Contact</a></li> -->
         </ul>
         </nav>
+        <div id="open_nav">&#9776;</div>
   </header>
 
-  <main class="project_grid">
+  <main>
+    <h1 id="skip">Projects</h1>
+    <div class="project_grid">
+
     <!---card 1: LC2k-->
-    <div class="flip-card" id="skip">
+    <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
           <img src="img/simulator.png" alt="pipeline">
@@ -168,6 +174,8 @@
         </div>
       </div>
     </div>
+    </div>
+    <script src="js/style.js"></script>
 
   </main>
   </body>

@@ -1,38 +1,67 @@
-<!---main homepage-->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" type="image/png" href="images/logo_icon.png"/>
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/starter.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Eva Szeszko</title>
   </head>
   <body>
-    
     <header>
-      <a class = "skip" href="#skip">Skip to Main Content</a>
+        <a class = "skip" href="#skip">Skip to Main Content</a>
         <div class="name">
           <ul>
-            <li><a href="about.html">Eva Szeszko</a></li>
+            <li><a href="index.html">Eva Szeszko</a></li>
           </ul>
         </div>
         <nav>
-        <ul class="nav_links">
-            <li class="nav_item"><a href="about.html">About</a></li>
+        <ul class="nav_links" id="nav_menu">
+            <div id="close_nav">&times;</div>
+            <li class="nav_item" id="current"><a href="index.html">About</a></li>
             <li class="nav_item"><a href="work.html">Experience</a></li>
             <li class="nav_item"><a href="projects.html">Projects</a></li>
             <li class="nav_item"><a href="skills.html">Skills</a></li>
+            <!-- <li class="nav_item"><a href="contact.html">Contact</a></li> -->
         </ul>
         </nav>
-    </header>
+        <div id="open_nav">&#9776;</div>
+  </header>
 
-  <main class="skip">
-    <h1>Main Content Here</h1>
+  <main id="skip">
+    <h1>Welcome</h1>
+
+    <div class="flex_split">
+      <div id="left">
+        <img src="img/self.jpg" alt="Image of Self" id="self">
+        <ul id="icons">
+            <a href="https://www.linkedin.com/in/eva-szeszko/"><i class="fa fa-linkedin-square"></i></a>
+            <a href="mailto:eszeszko@umich.edu"><i class="fa fa-envelope"></i></a>
+            <a href="https://github.com/eszeszko"><i class="fa fa-github"></i></a>
+            <a href="https://drive.google.com/file/d/17aZQ1o9lLD4NDuHQNIC0EOO-JJ-bp1Qf/view?usp=sharing"><i class="fa fa-file-pdf-o"></i></a>
+          </ul>
+      </div>
+
+      <div id="right">
+        <p>Hi, my name is <span class="important">Eva Szeszko</span> and I am a 
+          <span class="important">computer science</span> 
+          undergraduate student at the
+          <span class="important">University of Michigan's College of Engineering.</span>
+          One thing to note is that I usually spell my name E-W-A as that is the Polish spelling. However, either spelling is fine by me! The Polish pronunciation is Eh/vuh.<br><br>
+
+          As a computer scientist, my interests include software engineering in 
+          <span class="important">financial technology, web development, machine learning, and AI.</span>
+           I have been coding since I was in high school and am always expanding my knowledge and seeking out new projects whether they be school related or of personal interest. There is always more to be learned and I routinely go beyond the scope of my classwork to improve my coding skills through online coding practices, learn more through online coursework, and excel as a coder.<br><br>
+          
+          As a student and potential employee, I strive to work with my peers in a <span class="important">collaborative, creative, and problem-solving environment.</span> I believe a team that works best is a team that communicates. I have applied that idea to all areas of my life by being involved on campus in clubs such as Girls in Electrical and Computer Science <span class="important">(GEECS)</span>, Society of Women Engineers <span class="important">(SWE)</span>, my sorority, Alpha Delta Pi where I serve as the <span class="important">Family Events Chair</span>, or my project team where I lead the <span class="important">UI/UX subteam.</span><br><br>
+          
+          To learn more about my coding, check out my <a href="work.html">work experience</a> or <a href="projects.html">projects.</a>
+        </p>
+      </div>
+    </div>
+    <script src="js/style.js"></script>
   </main>
   </body>
 </html>

@@ -6,31 +6,99 @@
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/starter.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/work.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Eva Szeszko</title>
   </head>
   <body>
-    
     <header>
       <a class = "skip" href="#skip">Skip to Main Content</a>
-        <div id="name">
+        <div class="name">
           <ul>
-            <li><a href="about.html">Eva Szeszko</a></li>
+            <li><a href="index.html">Eva Szeszko</a></li>
           </ul>
         </div>
         <nav>
-        <ul class="nav_links">
-            <li class="nav_item"><a href="about.html">About</a></li>
+        <ul class="nav_links" id="nav_menu">
+          <div id="close_nav">&times;</div>
+            <li class="nav_item"><a href="index.html">About</a></li>
             <li class="nav_item" id="current"><a href="work.html">Experience</a></li>
             <li class="nav_item"><a href="projects.html">Projects</a></li>
             <li class="nav_item"><a href="skills.html">Skills</a></li>
+            <!-- <li class="nav_item"><a href="contact.html">Contact</a></li> -->
         </ul>
         </nav>
+        <div id="open_nav">&#9776;</div>
   </header>
 
-  <main>
-    <h1>Main Content Here</h1>
+  <main id="skip">
+    <h1>Work Experience</h1>
+    <h2><a href="https://drive.google.com/file/d/17aZQ1o9lLD4NDuHQNIC0EOO-JJ-bp1Qf/view?usp=sharing">See my full Resume</a></h2>
+    <div id="work_grid">
+      <!--Publicis-->
+      <div class="work-item">
+        <h1 class="work">Publicis Sapient</h1>
+        <h2 class="work">Software Engineering Intern</h2>
+        <h3 class="work">Summer 2023</h3>
+      </div>
+      <div class="work-item">
+        <p class="work">
+          Incoming engineer in the Chicago office this upcoming summer, Summer 2023.
+        </p>
+      </div>
+
+      <!--BornTec-->
+      <div class="work-item">
+        <h1 class="work">BornTec</h1>
+        <h2 class="work">Software Engineering Intern</h2>
+        <h3 class="work">Summer 2022</h3>
+      </div>
+      <div class="work-item">
+        <p class="work">Rewrote and implemented server-side operations application to provide company-wide ease of access trading information.
+        Worked alongside Product Management team to spearhead sought-after changes such as backing up 10+ years of cold data.</p>
+      </div>
+
+      <!--AiR Play-->
+      <div class="work-item">
+        <h1 class="work">AiR Play: Inclusive Augmented Reality</h1>
+        <h2 class="work">Software Engineer</h2>
+        <h3 class="work">Jan - Dec 2022</h3>
+      </div>
+      <div class="work-item">
+        <p class="work">Team leader of the UI/UX subteam that developed a web-based interface for game settings.
+          Enhanced readability and appeal of existing UI platform by creating one cohesive theme and implementing 5 new user-accessible game settings.
+          Collaborated with a team of 15 professors and graduate students to create an augmented air hockey game environment that is handicap accessible.</p>
+      </div>
+
+      <!--Juni-->
+      <div class="work-item">
+        <h1 class="work">Juni Learning</h1>
+        <h2 class="work">Instructor</h2>
+        <h3 class="work">Oct 2021 - Present</h3>
+      </div>
+
+      <div class="work-item">
+        <p class="work">Taught students computer science and game development principles using Python and PyGame.
+          Coded creative new games for students to replicate on their own.
+          Routinely interpreted and troubleshot other people's code.
+        </p>
+      </div>
+
+      <!-- ADPi
+      <div class="work-item">
+        <h1 class="work">Alpha Delta Pi</h1>
+        <h2 class="work">Family Events Chair</h2>
+        <h3 class="work">2021-2022</h3>
+      </div>
+
+      <div class="work-item">
+        <p class="work">
+          Organized events for 100+ families. Ordered, budgeted, and planned for 
+        </p> -->
+      </div>
+    </div>
+    <script src="js/style.js"></script>
   </main>
   </body>
 </html>
