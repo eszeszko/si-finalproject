@@ -73,7 +73,6 @@ header a {
 }
 
 .nav_item a:hover {
-    background-color: lightgray;
     text-decoration: none;
     border: none;
 }
@@ -90,8 +89,12 @@ ul.nav_links {
 
 #current {
     font-weight: bold;
-    background-color: lightgray;
+    background-color: white;
     /* text-decoration: underline; */
+}
+
+#current a:hover {
+    color: #609758;
 }
 
 .flex_split {
@@ -151,45 +154,6 @@ ul#icons {
 @media screen and (min-width: 500px) {
     /*side nav*/
 
-    #open_nav {
-        cursor: pointer;
-        padding: 20px;
-    }
-
-    #close_nav {
-        cursor: pointer;
-        align-self: flex-end;
-        color: #818181;
-        padding-right: 12px;
-        font-size: 25px;
-    }
-
-    .nav_links {
-        height: 100%;
-        flex-direction: column;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        right: 0;
-        background-color: lightgray;
-        transition: 0.5s;
-        padding-top: 10px;
-    }
-
-    .nav_item a{
-        /* padding: 8px 8px 8px 32px; */
-        text-decoration: none;
-        font-size: 25px;
-        color: #609758;
-        transition: 0.3s;
-    }
-
-    .nav_item a:hover {
-        color: white;
-        text-decoration: underline;
-    }
-
     ul#icons {
         flex-direction: row;
         flex-wrap: wrap;
@@ -209,7 +173,6 @@ ul#icons {
 
     #nav_menu {
         display: flex;
-        /* width: 250px; */
     }
 
     .nav_links {
@@ -234,6 +197,11 @@ ul#icons {
 
     .nav_item a:hover {
         color:#609758;
+    }
+
+    #current {
+        font-weight: bold;
+        background-color: lightgray;
     }
 
     .flex_split{
